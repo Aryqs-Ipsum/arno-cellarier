@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Cabin;
+    src: url('/fonts/Cabin/Cabin-Bold.ttf') format('truetype');
+    font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+
+body {
+    background-color: #2677bb;
+}
+
+h1 {
+    font-family: Cabin;
+    font-size: 5em;
+    color: #fff;
+    margin: 32px;
+}
