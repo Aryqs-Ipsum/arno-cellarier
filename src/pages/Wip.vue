@@ -15,7 +15,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .border-bottom {
     box-sizing: border-box;
     border-bottom: 8px solid #109C58;

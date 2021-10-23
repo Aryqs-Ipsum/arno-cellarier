@@ -1,3 +1,5 @@
+// fonts
+
 @import url('https://rsms.me/inter/inter.css');
 
 html { 
@@ -9,3 +11,25 @@ html {
         font-family: 'Inter var', sans-serif;
     }
 }
+
+h1, h2 {
+    font-weight: 500;
+}
+
+p, small, blockquote {
+    font-weight: 300;
+}
+
+// colors
+:root {
+    --primary: #18AF44;
+    --secondary: #5BA622;
+    --dark: #101820;
+    --grey: #D2D4D2;
+    --light-grey: #F4F4F1;
+    --light: #FFFFFF;
+}
+
+// components & pages
+
+@import './pages/home.scss';

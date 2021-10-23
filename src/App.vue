@@ -1,16 +1,9 @@
 <template>
   <div>
-    <Wip />
+    <Home />
   </div>
 </template>
 
-<script>
-import Wip from './pages/Wip.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Wip
-  }
-}
+<script setup>
+import Home from './pages/Home.vue'
 </script>
