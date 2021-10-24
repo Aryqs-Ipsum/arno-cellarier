@@ -30,6 +30,33 @@ p, small, blockquote {
     --light: #FFFFFF;
 }
 
+// display
+.container {
+    /* On limite la largeur */
+    width: 100%;
+    max-width: 960px;
+
+    /* On centre */
+    margin: 0 auto;
+
+    /* Et on ajoute une marge (sur les petits écrans seulement) */
+    padding: 0 20px;
+
+    /*
+    * Le "box-sizing: border-box;" permet de ne pas impacter la width avec le padding
+    * La largeur max réelle du contenu est donc de 920px =&gt; 960 - (2 x 20)
+    */
+    box-sizing: border-box;
+}
+
+/* Sur les écrans plus larges, la marge est gérée en pourcentage */
+@media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
+
 // components & pages
 
 @import './pages/home.scss';

@@ -5,4 +5,9 @@
             <p class="ac-home__subtitle">Je m'appelle Arno, étudiant en développement informatique.</p>
         </div>
     </div>
+    <Slider />
 </template>
+
+<script setup>
+import Slider from '../components/Slider.vue'
+</script>
